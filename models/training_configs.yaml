@@ -1,0 +1,65 @@
+logistic_regression:
+  auc: !!python/object/apply:numpy._core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    nY18UKIw5T8=
+  auc_ci: !!python/tuple
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      8z5ECunN5D8=
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GYdT3reQ5T8=
+  best_params:
+    classifier__C: 0.1
+  model: LogisticRegression
+  sensitivity: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    U2Q6Ro8X4T8=
+  specificity: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    ILWaSYZc5j8=
+xgboost:
+  auc: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    Ti3kUqBd5T8=
+  auc_ci: !!python/tuple
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      lQID2kMB5T8=
+  - !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jSIJ2WW55T8=
+  best_params:
+    classifier__learning_rate: 0.1
+    classifier__max_depth: 5
+    classifier__n_estimators: 100
+  model: XGBoost
+  sensitivity: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    sqx8EiRAiT8=
+  specificity: !!python/object/apply:numpy._core.multiarray.scalar
+  - *id001
+  - !!binary |
+    xB36mHb07z8=
