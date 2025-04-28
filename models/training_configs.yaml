@@ -1,5 +1,5 @@
 logistic_regression:
-  auc: !!python/object/apply:numpy._core.multiarray.scalar
+  auc: !!python/object/apply:numpy.core.multiarray.scalar
   - &id001 !!python/object/apply:numpy.dtype
     args:
     - f8
@@ -15,51 +15,81 @@ logistic_regression:
     - -1
     - 0
   - !!binary |
-    nY18UKIw5T8=
+    XbFN7Dgw5T8=
   auc_ci: !!python/tuple
-  - !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      8z5ECunN5D8=
-  - !!python/object/apply:numpy._core.multiarray.scalar
+      0ldNo4PN5D8=
+  - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      GYdT3reQ5T8=
+      ktwaUo2Q5T8=
   best_params:
     classifier__C: 0.1
   model: LogisticRegression
-  sensitivity: !!python/object/apply:numpy._core.multiarray.scalar
+  sensitivity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    U2Q6Ro8X4T8=
-  specificity: !!python/object/apply:numpy._core.multiarray.scalar
+    8of2K8Ye4T8=
+  specificity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    ILWaSYZc5j8=
-xgboost:
-  auc: !!python/object/apply:numpy._core.multiarray.scalar
+    s8e3VUtZ5j8=
+neural_network:
+  auc: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    Ti3kUqBd5T8=
+    sGoqVFoS5T8=
   auc_ci: !!python/tuple
-  - !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      lQID2kMB5T8=
-  - !!python/object/apply:numpy._core.multiarray.scalar
+      PwkIEkW25D8=
+  - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      jSIJ2WW55T8=
+      7+gzwXl15T8=
+  best_params:
+    activation: relu
+    alpha: 0.0001
+    hidden_layer_sizes: !!python/tuple
+    - 50
+    - 30
+    learning_rate_init: 0.01
+  model: MLPClassifier
+  sensitivity: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    K91qNLGkZT8=
+  specificity: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    kxIdDMX87z8=
+xgboost:
+  auc: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    wcqZV6NI5T8=
+  auc_ci: !!python/tuple
+  - !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mRVgpUjq5D8=
+  - !!python/object/apply:numpy.core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ncrcBeen5T8=
   best_params:
     classifier__learning_rate: 0.1
-    classifier__max_depth: 5
-    classifier__n_estimators: 100
+    classifier__max_depth: 3
+    classifier__n_estimators: 200
   model: XGBoost
-  sensitivity: !!python/object/apply:numpy._core.multiarray.scalar
+  sensitivity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    sqx8EiRAiT8=
-  specificity: !!python/object/apply:numpy._core.multiarray.scalar
+    pA1ZVj4Jgj8=
+  specificity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    xB36mHb07z8=
+    Nn4uR8X27z8=
