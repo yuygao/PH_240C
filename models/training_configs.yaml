@@ -40,46 +40,45 @@ neural_network:
   auc: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    sGoqVFoS5T8=
+    hlPv5VbR4j8=
   auc_ci: !!python/tuple
   - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      PwkIEkW25D8=
+      8vk6r5Bo4j8=
   - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      7+gzwXl15T8=
+      Exykb4A34z8=
   best_params:
-    activation: relu
+    activation: tanh
     alpha: 0.0001
     hidden_layer_sizes: !!python/tuple
-    - 50
-    - 30
-    learning_rate_init: 0.01
+    - 100
+    learning_rate_init: 0.001
   model: MLPClassifier
   sensitivity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    K91qNLGkZT8=
+    efKH9ivGzj8=
   specificity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    kxIdDMX87z8=
+    uFVLWe7K6z8=
 xgboost:
   auc: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    wcqZV6NI5T8=
+    bed+HBs/5T8=
   auc_ci: !!python/tuple
   - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      mRVgpUjq5D8=
+      2ojBPXPh5D8=
   - !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      ncrcBeen5T8=
+      21kiA9ie5T8=
   best_params:
     classifier__learning_rate: 0.1
     classifier__max_depth: 3
@@ -88,8 +87,8 @@ xgboost:
   sensitivity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    pA1ZVj4Jgj8=
+    CfPsdj/T4j8=
   specificity: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    Nn4uR8X27z8=
+    F7S1i8/r5D8=
