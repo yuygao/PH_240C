@@ -8,16 +8,13 @@ This repository contains all materials related to the project, including source 
   Contains the main analysis notebook (`code.ipynb`) for data preprocessing, model training, and evaluation.
 
 - `data/`  
-  Includes raw input files, cleaned datasets, and any reference mapping files.
+  Includes raw data, cleaned datasets, and any reference mapping files.
 
 - `figs/`  
   Stores visual outputs and plots generated during the analysis.
 
 - `models/`  
   Contains the best-performing trained model.
-
-- `results/`  
-  Includes prediction outputs, performance metrics, and evaluation summaries.
 
 - `report/`  
   Holds the final project report and any supporting documentation.
